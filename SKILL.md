@@ -14,7 +14,7 @@ description: 辅助 xiaozhi-esp32 项目的需求分析、代码阅读、Bug 修
 
 ## 文档索引
 
-本 Skill 的规则拆分为以下 20 个文档，按用户所需阅读（推荐全部阅读）：
+本 Skill 的规则拆分为以下 21 个文档，按用户所需阅读（推荐全部阅读）：
 
 | 序号 | 文档 | 说明 |
 |------|------|------|
@@ -38,3 +38,4 @@ description: 辅助 xiaozhi-esp32 项目的需求分析、代码阅读、Bug 修
 | 18 | [禁止事项](docs/18-prohibited-actions.md) | 项目中明确禁止的 15 种行为，包括幻想实现、混合分层、忽略 Git 等 |
 | 19 | [推荐工作流](docs/19-recommended-workflow.md) | 每次任务的 15 步完整执行流程，从 Git 检查到总结汇报 |
 | 20 | [核心设计原则](docs/20-core-principles.md) | 项目整体架构思想：app → middleware → bsp → esp-idf drivers |
+| 21 | [调用链追踪](docs/21-call-chain-tracking.md) | 在项目根目录维护 Call_chain.md，用 Mermaid 流程图 + 调用链表 + 文件路径记录每次代码变更的调用逻辑 |
