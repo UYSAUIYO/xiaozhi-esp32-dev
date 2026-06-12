@@ -39,3 +39,4 @@ description: 辅助 xiaozhi-esp32 项目的需求分析、代码阅读、Bug 修
 | 19 | [推荐工作流](docs/19-recommended-workflow.md) | 每次任务的 15 步完整执行流程，从 Git 检查到总结汇报 |
 | 20 | [核心设计原则](docs/20-core-principles.md) | 项目整体架构思想：app → middleware → bsp → esp-idf drivers |
 | 21 | [调用链追踪](docs/21-call-chain-tracking.md) | 在项目根目录维护 Call_chain.md，用 Mermaid 流程图 + 调用链表 + 文件路径记录每次代码变更的调用逻辑 |
+| 22 | [Kconfig 规则：板级配置项的正确放置](docs/22-kconfig-rules.md) | 新增板级支持时，必须在 `main/Kconfig.projbuild` 中添加对应的 Kconfig 条目。错误放置会导致配置项在 `menuconfig` 中不可见。 |
