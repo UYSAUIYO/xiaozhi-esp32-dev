@@ -48,7 +48,8 @@ xiaozhi-esp32-dev/
     ├── 18-prohibited-actions.md
     ├── 19-recommended-workflow.md
     ├── 20-core-principles.md
-    └── 21-call-chain-tracking.md
+    ├── 21-call-chain-tracking.md
+    └── 22-kconfig-rules.md
 ```
 
 ---
